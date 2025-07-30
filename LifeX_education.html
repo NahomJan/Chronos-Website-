@@ -1,0 +1,220 @@
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link rel="stylesheet" as="style" onload="this.rel='stylesheet'"
+        href="https://fonts.googleapis.com/css2?display=swap&amp;family=Inter%3Awght%40400%3B500%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900" />
+
+    <title>Stitch Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+</head>
+
+<body>
+    <div class="relative flex size-full min-h-screen flex-col bg-[#231e10] dark group/design-root overflow-x-hidden"
+        style='font-family: Inter, "Noto Sans", sans-serif;'>
+        <div class="layout-container flex h-full grow flex-col">
+            <header
+                class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#493f22] px-10 py-3">
+                <div class="flex items-center gap-8">
+                    <div class="flex items-center gap-4 text-white">
+                        <div class="size-4">
+                            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M39.475 21.6262C40.358 21.4363 40.6863 21.5589 40.7581 21.5934C40.7876 21.655 40.8547 21.857 40.8082 22.3336C40.7408 23.0255 40.4502 24.0046 39.8572 25.2301C38.6799 27.6631 36.5085 30.6631 33.5858 33.5858C30.6631 36.5085 27.6632 38.6799 25.2301 39.8572C24.0046 40.4502 23.0255 40.7407 22.3336 40.8082C21.8571 40.8547 21.6551 40.7875 21.5934 40.7581C21.5589 40.6863 21.4363 40.358 21.6262 39.475C21.8562 38.4054 22.4689 36.9657 23.5038 35.2817C24.7575 33.2417 26.5497 30.9744 28.7621 28.762C30.9744 26.5497 33.2417 24.7574 35.2817 23.5037C36.9657 22.4689 38.4054 21.8562 39.475 21.6262ZM4.41189 29.2403L18.7597 43.5881C19.8813 44.7097 21.4027 44.9179 22.7217 44.7893C24.0585 44.659 25.5148 44.1631 26.9723 43.4579C29.9052 42.0387 33.2618 39.5667 36.4142 36.4142C39.5667 33.2618 42.0387 29.9052 43.4579 26.9723C44.1631 25.5148 44.659 24.0585 44.7893 22.7217C44.9179 21.4027 44.7097 19.8813 43.5881 18.7597L29.2403 4.41187C27.8527 3.02428 25.8765 3.02573 24.2861 3.36776C22.6081 3.72863 20.7334 4.58419 18.8396 5.74801C16.4978 7.18716 13.9881 9.18353 11.5858 11.5858C9.18354 13.988 7.18717 16.4978 5.74802 18.8396C4.58421 20.7334 3.72865 22.6081 3.36778 24.2861C3.02574 25.8765 3.02429 27.8527 4.41189 29.2403Z"
+                                    fill="currentColor"></path>
+                            </svg>
+                        </div>
+                        <h2 class="text-white text-lg font-bold leading-tight tracking-[-0.015em]">Chronos Inc.</h2>
+                    </div>
+                    <div class="flex items-center gap-9">
+                        <a class="text-white text-sm font-medium leading-normal" href="#">Dashboard</a>
+                        <a class="text-white text-sm font-medium leading-normal" href="#">Learn</a>
+                        <a class="text-white text-sm font-medium leading-normal" href="#">Community</a>
+                        <a class="text-white text-sm font-medium leading-normal" href="#">Jobs</a>
+                    </div>
+                </div>
+                <div class="flex flex-1 justify-end gap-8">
+                    <label class="flex flex-col min-w-40 !h-10 max-w-64">
+                        <div class="flex w-full flex-1 items-stretch rounded-xl h-full">
+                            <div class="text-[#cbbc90] flex border-none bg-[#493f22] items-center justify-center pl-4 rounded-l-xl border-r-0"
+                                data-icon="MagnifyingGlass" data-size="24px" data-weight="regular">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor"
+                                    viewBox="0 0 256 256">
+                                    <path
+                                        d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <input placeholder="Search"
+                                class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-white focus:outline-0 focus:ring-0 border-none bg-[#493f22] focus:border-none h-full placeholder:text-[#cbbc90] px-4 rounded-l-none border-l-0 pl-2 text-base font-normal leading-normal"
+                                value="" />
+                        </div>
+                    </label>
+                    <button
+                        class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 bg-[#493f22] text-white gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5">
+                        <div class="text-white" data-icon="Bell" data-size="20px" data-weight="regular">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor"
+                                viewBox="0 0 256 256">
+                                <path
+                                    d="M221.8,175.94C216.25,166.38,208,139.33,208,104a80,80,0,1,0-160,0c0,35.34-8.26,62.38-13.81,71.94A16,16,0,0,0,48,200H88.81a40,40,0,0,0,78.38,0H208a16,16,0,0,0,13.8-24.06ZM128,216a24,24,0,0,1-22.62-16h45.24A24,24,0,0,1,128,216ZM48,184c7.7-13.24,16-43.92,16-80a64,64,0,1,1,128,0c0,36.05,8.28,66.73,16,80Z">
+                                </path>
+                            </svg>
+                        </div>
+                    </button>
+                    <div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10"
+                        style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBnDu4hEU7w5sRwMXOvpjtWkbzFch-h9JO-mxF01a6mDpH7I8bCQvRIjef0JSnOBndsk89fMOZl8ePlAOffv4g-N6WgKizl0Zxs6GNeA_8DnkQsvMm77pzUS-rYqETZLQ8SYrNttaOEB5S23i6z50WR_PRaQPZXZkMtIhNSSs0vSIQMx_3AmzZSb4doHwJ1RuUM24Fj7y4gz4txooF-yRzs1bQfklZlgiqIKKS3d27fQ-147PoRlIMf-AoMgezlLyWSbllz4Ce48RHG");'>
+                    </div>
+                </div>
+            </header>
+            <div class="px-40 flex flex-1 justify-center py-5">
+                <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+                    <div class="flex flex-wrap justify-between gap-3 p-4">
+                        <p class="text-white tracking-light text-[32px] font-bold leading-tight min-w-72">Your Learning
+                            Hub</p>
+                    </div>
+                    <h3 class="text-white text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">
+                        Scholarship Finder</h3>
+                    <div class="p-4">
+                        <div class="flex items-stretch justify-between gap-4 rounded-xl">
+                            <div class="flex flex-[2_2_0px] flex-col gap-4">
+                                <div class="flex flex-col gap-1">
+                                    <p class="text-white text-base font-bold leading-tight">Find Scholarships</p>
+                                    <p class="text-[#cbbc90] text-sm font-normal leading-normal">Explore scholarships
+                                        tailored to your profile and academic goals.</p>
+                                </div>
+                                <button
+                                    class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-8 px-4 flex-row-reverse bg-[#493f22] text-white text-sm font-medium leading-normal w-fit">
+                                    <span class="truncate">Search Now</span>
+                                </button>
+                            </div>
+                            <div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex-1"
+                                style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuB70PakSnMmbcDBb_v6wLxyILp_1532RRopHdCGdrl3XTo-9yCmTdVnyHP4pgWmH5k5QPejsII_UDqA6CeMINGXPnnGPcIHV-u0adp8yTiot626eckb2Yw0Ec4l4FkURi5zmaiCKCIh-rxul1S0hY5ARTibm6ZDtL-X9m6sgHUp8BbpD_sN_XY3UbXyrUIyFZVgxYsO6qvNy3ADo16Qj-hE0YjOtC1jmyBlt1mCGizUBDv80i6tOnbOhch1rHuNJEhA895vTTUDhVVV");'>
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="text-white text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">
+                        Recommended Courses</h3>
+                    <div
+                        class="flex overflow-y-auto [-ms-scrollbar-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden">
+                        <div class="flex items-stretch p-4 gap-3">
+                            <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-40">
+                                <div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl flex flex-col"
+                                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA2Pn8F4a7gbrcQ-lKobZRddxbIXXrp7egtTB14f-ZPFDTIlfPrEffJ8wlHP0OTRxGoh4jBar8u6J-kmhK-Wo2saS_VKeo8FC8YlRDZgUzNUODYHhQ3kB8ADhFMIe_7TjlQABG_ltAo6Y0YmdgJnp3V8Y-I1THWay1H35sabUJ216E4KUryCAqFuYYTK6SkjnTzKUL5ui18xeKsdh7dtbGTP2lNCTSqtq-0ckBLUsUqLCtMdhP5rSm2zfmoGrVzxottGxwFRscAORCT");'>
+                                </div>
+                                <div>
+                                    <p class="text-white text-base font-medium leading-normal">Financial Planning for
+                                        Students</p>
+                                    <p class="text-[#cbbc90] text-sm font-normal leading-normal">Learn to manage your
+                                        finances effectively.</p>
+                                </div>
+                            </div>
+                            <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-40">
+                                <div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl flex flex-col"
+                                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBxIH2VGnPyw6Yggp6CmiqUdW2xUJ_u9Wf3Yp1KAOFMz1FZYE-OLRvXNINcnlsKY-TE0mKqbEDVBerSqKxDJLy1S1JHQ6HVNdnX6YbzddALB_2Rs9IgCcDnxyss49g5okfa87Ksr8gOWJqhizZUd6D54qn0BBS1hUUtTKJ1WuZlVH4nT2n71uhOz2R_kG9BYtYLwRXBH7DHCSr8KD1veyLb4Afr40Rbt0crQz9W-H2xkt2xUeZNQaZiQ0bn-aYgfvZ6GPYyBbRfgoIa");'>
+                                </div>
+                                <div>
+                                    <p class="text-white text-base font-medium leading-normal">Introduction to Python
+                                        Programming</p>
+                                    <p class="text-[#cbbc90] text-sm font-normal leading-normal">Master the basics of
+                                        Python programming.</p>
+                                </div>
+                            </div>
+                            <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-40">
+                                <div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl flex flex-col"
+                                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAf8BCJ2OXhcUnuQGQa3C8R83w1DgiFG4wuP8K5R6lB3NdTWWKQzf7SH4jwIQzL9jtEb_sBLEWSCmkBNYUHEi0Jxn2BOykiG06Sq1Cg0qjpRp9hPZEdoWnETG_RFVGkkfLuyU3TUrFFY8NXzthpTqbxbn-lmTA5NzQbI9-W3QnXWzVKs9wcwkxjISwEtnYQP1ygM_vQppIs3mhKiK77Z6fGo4mFfH7irHpzxPIqMS4ppUv9M1f29ADf7w9g-WOn5ADCZ4Conz-NhaX7");'>
+                                </div>
+                                <div>
+                                    <p class="text-white text-base font-medium leading-normal">UI/UX Design Fundamentals
+                                    </p>
+                                    <p class="text-[#cbbc90] text-sm font-normal leading-normal">Discover the principles
+                                        of UI/UX design.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="text-white text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Skill
+                        Planner</h3>
+                    <div class="p-4">
+                        <div class="flex items-stretch justify-between gap-4 rounded-xl">
+                            <div class="flex flex-[2_2_0px] flex-col gap-4">
+                                <div class="flex flex-col gap-1">
+                                    <p class="text-white text-base font-bold leading-tight">Plan Your Skills</p>
+                                    <p class="text-[#cbbc90] text-sm font-normal leading-normal">Create a personalized
+                                        skill development plan to achieve your career aspirations.</p>
+                                </div>
+                                <button
+                                    class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-8 px-4 flex-row-reverse bg-[#493f22] text-white text-sm font-medium leading-normal w-fit">
+                                    <span class="truncate">Start Planning</span>
+                                </button>
+                            </div>
+                            <div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex-1"
+                                style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuC6v0trxYZxe-OXUvf9XnLLZHmCJu_lf6-IdBoVPpxlmhxSGfIkq1FtBA49_UF43u2O2U64itjdbQHkzbjynEIPklS2S-FeY52ShRPe9H_0bWG8uSnHA_obsdZ0FcmjlNvMeaiZpizxQ0Rp1hT3W56aFeqDc6Tdyt9iDNUCFvy5oWza_xJs9ottQZT0_SMeurzQ6BK1dTluALfw-jIgK3EM9E6DI99Zqy9ycwg7mY_AymGHC5lJ2FG-sITOOAp3Po4uSle_Z--IGzdO");'>
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="text-white text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Tutoring
+                    </h3>
+                    <div
+                        class="flex overflow-y-auto [-ms-scrollbar-style:none] [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden">
+                        <div class="flex items-stretch p-4 gap-3">
+                            <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-40">
+                                <div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl flex flex-col"
+                                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCF1prMWCelek0MEUAKmOZ1Ma4k0hhnWYQHYy8YlT_oEHrsPKsBVJ-HIAAfAPRzLSeQ3WgHnI5QVQ7R6FtRjjqcf3-WR1Mb7NWewZRNQxW4A-qjuXoJRnmqfn8ubXataywSLT-3S-bobBL1iWCtWCgD7RHsy87l4TocTRPyYr6P4P7CrULcXU_30l6J1VKetL5n13CC73e8gM1P30ojEeypV0LdRewN0GrUJCp2id1QXpzLLpLLu6E67hfkixk_79eC7ejEjZjH7l7F");'>
+                                </div>
+                                <div>
+                                    <p class="text-white text-base font-medium leading-normal">Math Tutoring</p>
+                                    <p class="text-[#cbbc90] text-sm font-normal leading-normal">Get help with your math
+                                        coursework.</p>
+                                </div>
+                            </div>
+                            <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-40">
+                                <div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl flex flex-col"
+                                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBBLEQp_E_Jkll4csTvjyKMUPjCy6dlyKi8Sq2iUwl2RLHDpuMvtX1GEl_Vi-8udO45IgD0WClxBnLNfVIQNYoOPYUoRIpXqrgahMTCQRmnuaZgrSbAEjpkQ6ZxuercQzFV5HYXKbi1odpd_zk_GMiRJYTQeze-k82MSnGtjWC6_zYd5MSSf7SP2IRfzDnNsPwmr8uNi1QH9dq4sGvnVYhRvmSNI-NPox7sqlRYqHBfFGbf1eTkiH1IuJYq4Aa3MzUfmYGvp7oLDmt0");'>
+                                </div>
+                                <div>
+                                    <p class="text-white text-base font-medium leading-normal">Science Tutoring</p>
+                                    <p class="text-[#cbbc90] text-sm font-normal leading-normal">Improve your
+                                        understanding of science concepts.</p>
+                                </div>
+                            </div>
+                            <div class="flex h-full flex-1 flex-col gap-4 rounded-lg min-w-40">
+                                <div class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl flex flex-col"
+                                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCl8O0cBO5eRmAt8AyZRFTQbyzjb6Vg-u-eG5f7zjyx8qTDBMUF-2SwtOF6bFZQkJpHzFMg6Egmi0ezVtq5weWMhxl-zDHpp_wWupXikVGP2EvtDSpwHDVI9tgtuep7zdTYJ8uONQb1gD-BvUkfpDUNH3sVwhcWeOSFHQqnWecM0g5cDjMhqWXbzdwFFpwkTYqrIuN5n7Ir_rx9Pqa9Jj1obIIvl1qdvCHRqoHMQVEmvSXZcQVh9Bdo3vtBY8Hj5BQVAhhXgYlOnsxF");'>
+                                </div>
+                                <div>
+                                    <p class="text-white text-base font-medium leading-normal">English Tutoring</p>
+                                    <p class="text-[#cbbc90] text-sm font-normal leading-normal">Enhance your English
+                                        language skills.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="text-white text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Student
+                        Loan Manager</h3>
+                    <div class="p-4">
+                        <div class="flex items-stretch justify-between gap-4 rounded-xl">
+                            <div class="flex flex-[2_2_0px] flex-col gap-4">
+                                <div class="flex flex-col gap-1">
+                                    <p class="text-white text-base font-bold leading-tight">Manage Your Loans</p>
+                                    <p class="text-[#cbbc90] text-sm font-normal leading-normal">Track your student
+                                        loans, payment schedules, and explore repayment options.</p>
+                                </div>
+                                <button
+                                    class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-8 px-4 flex-row-reverse bg-[#493f22] text-white text-sm font-medium leading-normal w-fit">
+                                    <span class="truncate">View Loans</span>
+                                </button>
+                            </div>
+                            <div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex-1"
+                                style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCHXuLtcayKOi0XFlUtZjBnynF-kslt3WGAJlR2M0FFzXZ_EQDEs50bcfD1GPlRzp68hKGFQ4vTtWHlMPVap7v7vEGOb1xRnT_2rdbmNGocrn3SJ6ULpQzki1jOwHo8pjUPiw5Hsmcqmqyollibep7QZ00I715tCQo2TfyLJuAjDPvG5T7cHXAtE1wmgSnJRL8FL4U7ZxPRq18phbTY2iFw4copw2aaobQV1e3yO6eV0JyiKqL1hkk6MjZiA_tdg-jJ1H4sXngQTRil");'>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
